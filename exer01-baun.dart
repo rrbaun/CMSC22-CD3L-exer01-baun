@@ -2,9 +2,10 @@
 //and used this site https://www.kodeco.com/books/dart-apprentice-beyond-the-basics/v1.0/chapters/1-string-manipulation
 //as reference for the replaceAll function
 void main() {
-  String word1 = "abc de f";
-  String word2 = "bcd, e F a";
+  String word1 = "rotation";
+  String word2 = "tationro";
 
+  print("\nInput:\n\n word 1 = ${word1} \n word 2 = ${word2} \n\nOutput: \n");
   isRotate(toAlpha(word1), toAlpha(word2));
 }
 
